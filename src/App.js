@@ -1,9 +1,13 @@
-import Banner from './components/banner/Banner';
+import Banner from './components/banner';
+import CampoTexto from './components/campoTexto';
 
 function App() {
   return (
     <div className="App">
       <Banner />
+      <CampoTexto label="Nome" placeholder="Digite o seu nome"/>
+      <CampoTexto label="Cargo" placeholder="Digite o seu cargo"/>
+      <CampoTexto label="Imagem" placeholder="Digite o endereço da imagem"/>
     </div>
   );
 }
