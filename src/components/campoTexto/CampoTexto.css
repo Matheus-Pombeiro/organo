@@ -5,15 +5,27 @@
  .campo-texto label {
     display: block;
     margin-bottom: 8px;
-    font-size: 24px;
+    font-size: 1rem;
  }
 
  .campo-texto input {
     width: 100%;
     box-sizing: border-box;
-    padding: 24px;
+    padding: 1rem;
     background-color: white;
-    font-size: 24px;
+    font-size: 1rem;
     border: none;
+    border-radius: 10px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+ }
+
+ @media screen and (min-width: 1024px) {
+   .campo-texto label {
+      font-size: 24px;
+   }
+
+   .campo-texto input {
+      font-size: 24px;
+      padding: 24px;
+   }
  }
