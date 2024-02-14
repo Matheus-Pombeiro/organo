@@ -14,13 +14,16 @@ const Formulario = (props) => {
 
     const aoSalvar = (e) => {
         e.preventDefault();
-        console.log(`Form foi submetido => ${nome}, ${cargo}, ${imagem}, ${time}`)
         props.aoColaboradorCadastrado({
             nome,
             cargo,
             imagem,
             time
         });
+        setNome("");
+        setCargo("");
+        setImagem("");
+        setTime("");
     };
 
     return (
