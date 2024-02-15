@@ -1,0 +1,38 @@
+.footer {
+    margin-top: 52px;
+    padding: 12px 0;
+    background-color: #6278f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer .social-medias img {
+    width: 16px;
+    margin: 0 4px;
+}
+
+.footer .logo img {
+    width: 72px;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        padding: 24px 0;
+        gap: 72px;
+    }
+
+    .footer .social-medias img {
+        width: 28px;
+        margin: 0 8px;
+    }
+    
+    .footer .logo img {
+        width: 100px;
+    }
+    
+    .footer p {
+        font-size: 1.3rem;
+    }
+}
